@@ -3,7 +3,11 @@ const { Schema, model } = require("mongoose");
 const spellSchema = new Schema(
   {
     name: String,
-    effect: String,
+    cost: String,
+    actionDice: {
+        type: Schema.Types.ObjectId,
+        ref: 'Dice'
+    }
   }
 );
 

@@ -3,7 +3,10 @@ const { Schema, model } = require("mongoose");
 const weaponSchema = new Schema(
   {
     name: String,
-    effect: String,
+    actionDice: {
+        type: Schema.Types.ObjectId,
+        ref: 'Dice'
+    }
   }
 );
 
