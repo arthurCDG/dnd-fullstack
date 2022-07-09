@@ -4,7 +4,16 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "seed:dice": "node ./bin/seeds/Die.seeds.js",
+    "seed:weapons": "node ./bin/seeds/Weapon.seeds.js",
+    "seed:spells": "node ./bin/seeds/Spell.seeds.js",
+    "seed:skills": "node ./bin/seeds/Skill.seeds.js",
+    "seed:artefacts": "node ./bin/seeds/Artefact.seeds.js",
+    "seed:potions": "node ./bin/seeds/Potion.seeds.js",
+    "seed:monsters": "node ./bin/seeds/Monster.seeds.js",
+    "seed:heroes": "node ./bin/seeds/Hero.seeds.js",
+    "seed:all": "npm run seed:dice && npm run seed:weapons && npm run seed:spells && npm run seed:skills && npm run seed:artefacts && npm run seed:potions && npm run seed:monsters && npm run seed:heroes"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",

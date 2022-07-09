@@ -1,16 +1,9 @@
 const { Schema, model } = require("mongoose");
 
-const dieSchema = new Schema(
-  {
-    name: String,
-    faces: [
-        {  
-            number: Number,
-            img: String,
-        }
-    ]
-  }
-);
+const dieSchema = new Schema({
+  name: String,
+  faces: [],
+});
 
 const Dice = model("Dice", dieSchema);
 

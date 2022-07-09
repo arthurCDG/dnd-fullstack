@@ -1,12 +1,10 @@
 const { Schema, model } = require("mongoose");
 
-const potionSchema = new Schema(
-  {
-    name: String,
-    action: String,
-    img: String,
-  }
-);
+const potionSchema = new Schema({
+  name: String,
+  effect: String,
+  img: String,
+});
 
 const Potion = model("Potion", potionSchema);
 

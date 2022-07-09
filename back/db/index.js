@@ -1,17 +1,16 @@
+require("dotenv").config();
+
 const mongoose = require("mongoose");
 
-// ℹ️ Sets the MongoDB URI for our app to have access to it.
-// If no env has been set, we dynamically set it to whatever the folder name was upon the creation of the app
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
-const MONGO_URI = require("../utils/consts");
+mongoose.connection.on("connected", () =>
+  console.log("yay mongodb connected :)")
+);
 
-mongoose
-  .connect(MONGO_URI)
-  .then((x) => {
-    console.log(
-      `Connected to Mongo! Database name: "${x.connections[0].name}"`
-    );
-  })
-  .catch((err) => {
-    console.error("Error connecting to mongo: ", err);
-  });
+mongoose.connection.on("error", () =>
+  console.log("nay db connection error :(")
+);
