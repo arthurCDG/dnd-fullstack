@@ -25,6 +25,8 @@ const heroes = [
     inventory: [],
     inventoryCapacity: 5,
     isAlive: true,
+    xPosition: 1,
+    yPosition: 1,
   },
   {
     name: "Regdar",
@@ -44,6 +46,8 @@ const heroes = [
     inventory: [],
     inventoryCapacity: 4,
     isAlive: true,
+    xPosition: 2,
+    yPosition: 1,
   },
   {
     name: "Lidda",
@@ -63,6 +67,8 @@ const heroes = [
     inventory: [], // "yondalla_necklace"
     inventoryCapacity: 4,
     isAlive: true,
+    xPosition: 3,
+    yPosition: 1,
   },
   {
     name: "Mialye",
@@ -82,6 +88,8 @@ const heroes = [
     inventory: [],
     inventoryCapacity: 5,
     isAlive: true,
+    xPosition: 4,
+    yPosition: 1,
   },
 ];
 

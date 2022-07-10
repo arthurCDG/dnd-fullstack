@@ -97,6 +97,7 @@ const dice = [
   try {
     const inserted = await DieModel.insertMany(dice);
     console.log(`seed weapons done : ${inserted.length} documents inserted !`);
+    process.exit();
   } catch (err) {
     console.error(err);
   }

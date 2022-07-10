@@ -13,7 +13,7 @@
     "seed:potions": "node ./bin/seeds/Potion.seeds.js",
     "seed:monsters": "node ./bin/seeds/Monster.seeds.js",
     "seed:heroes": "node ./bin/seeds/Hero.seeds.js",
-    "seed:all": "npm run seed:dice && npm run seed:weapons && npm run seed:spells && npm run seed:skills && npm run seed:artefacts && npm run seed:potions && npm run seed:monsters && npm run seed:heroes"
+    "seed:all": "npm run seed:dice && npm run seed:potions && npm run seed:weapons && npm run seed:spells && npm run seed:skills && npm run seed:artefacts && npm run seed:monsters && npm run seed:heroes"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",

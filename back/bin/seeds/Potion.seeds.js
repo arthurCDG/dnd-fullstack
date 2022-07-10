@@ -22,4 +22,5 @@ const potions = [
 
 PotionModel.insertMany(potions)
   .then(console.log("Succes, inserted potions"))
+  .then((x) => process.exit())
   .catch((err) => console.log(err));

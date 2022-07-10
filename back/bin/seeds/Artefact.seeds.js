@@ -43,4 +43,5 @@ const artefacts = [
 
 ArtefactModel.insertMany(artefacts)
   .then((x) => console.log(`Succes, inserted ${x.count} artefacts`))
+  .then((x) => process.exit())
   .catch((err) => console.log(err));

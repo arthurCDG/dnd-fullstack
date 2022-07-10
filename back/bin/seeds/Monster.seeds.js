@@ -15,6 +15,8 @@ const monsters = [
     weapon: null, // "short_axe"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
   {
     name: "Goblin",
@@ -27,6 +29,8 @@ const monsters = [
     weapon: null, // "dagger"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
   {
     name: "Minotaur",
@@ -39,6 +43,8 @@ const monsters = [
     weapon: null, // "heavy_club"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
   {
     name: "LichKing",
@@ -51,6 +57,8 @@ const monsters = [
     weapon: null, // "lich_ward"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
   {
     name: "Ogre",
@@ -63,6 +71,8 @@ const monsters = [
     weapon: null, // "heavy_club"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
   {
     name: "Skeleton",
@@ -75,6 +85,8 @@ const monsters = [
     weapon: null, // "fantomatic_sword"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
   {
     name: "Slime",
@@ -87,6 +99,8 @@ const monsters = [
     weapon: null, // "fantomatic_sword"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
   {
     name: "Specter",
@@ -99,6 +113,8 @@ const monsters = [
     weapon: null, // "fantomatic_sword"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
   {
     name: "Troll",
@@ -111,6 +127,8 @@ const monsters = [
     weapon: null, // "heavy_club"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
   {
     name: "Wyvern",
@@ -123,12 +141,14 @@ const monsters = [
     weapon: null, // "heavy_club"
     isAlive: true,
     inventory: [],
+    xPosition: null,
+    yPosition: null,
   },
 ];
 
 (async function insertMonsters() {
   try {
-    await MonsterModel.deleteMany(); // empty the Hero db collection
+    await MonsterModel.deleteMany(); // empty the Monster db collection
 
     const Weapons = await Promise.all([
       WeaponModel.findOne({ name: "Short axe" }),
