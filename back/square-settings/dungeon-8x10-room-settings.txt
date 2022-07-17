@@ -1,0 +1,26 @@
+### Dungeon floor - starter room
+
+Dimension: 8x20
+
+________|____0____|____1____|___2___|____3___|____4___|___5____|___6___|____7___|____8___|
+    0   |   WALL  |   WALL  |  WALL |  WALL  |   WALL |   WALL |  WALL |   WALL |  WALL  |
+    1   |   WALL  | Fighter | Druid | Archer |  Rogue |        |       |        |  WALL  |
+    2   |   WALL  |         |       |        |        |        |       | *trap* |  WALL  |
+    3   |   WALL  |         |       |        |        |        |       |        |  WALL  |
+    4   |   WALL  | *chest* |       |        |        | *trap* |*chest*| *chest*|  WALL  |
+    5   |   WALL  | *chest* |       |        |        |        | PILLAR| PILLAR |  WALL  |
+    6   |   WALL  |         |       |        |        |        |       |        |  WALL  |
+    7   |   WALL  |         |       |        |        |        |       |        |  WALL  |
+    8   |   WALL  | goblin  |       |        |        |        |       |        |  WALL  |
+    9   |   WALL  |         |       | *trap* | PILLAR | PILLAR | PILLAR| PILLAR |  WALL  |
+   10   |   WALL  | goblin  |       |        |        |        |       |  *key* |  WALL  |
+   11   |   WALL  |         |       |        |        |        |       |        |  WALL  |
+   12   |   WALL  |         |       |  gnoll |        |        |       |        |  WALL  |
+   13   |   WALL  |         |       |  gnoll |        |        | *trap*|        |  WALL  |
+   14   |   WALL  |         |       |        |        |        |       |        |  WALL  |
+   15   |   WALL  |         |       |        |        |        |       |        |  WALL  |
+   16   |   WALL  |         |       |        |        |        |       |doorstep| *door* |
+   17   |   WALL  |         |       | *trap* |        |        | *trap*|        |  WALL  |
+   18   |   WALL  |   ogre  |       |        |        |        |       |  ogre  |  WALL  |
+   19   |   WALL  | *chest* |       |        |        |        |*chest*| *chest*|  WALL  |
+   20   |   WALL  |   WALL  |  WALL |   WALL |   WALL |   WALL |  WALL |   WALL |  WALL  |

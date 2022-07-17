@@ -1,7 +1,6 @@
 .square {
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,6 +15,10 @@
 }
 
 .dungeon-tile-3 {
+    background-image: url("./../img/dungeons-tiles/individual_dungeon_tile_3.jpg");
+}
+
+.dungeon-wall {
     background-image: url("./../img/dungeons-tiles/individual_dungeon_tile_3.jpg");
 }
 

@@ -1,3 +1,39 @@
 .fighter {
     background-image: url("./../img/heroes/FighterM14.png");
 }
+
+.druid {
+    background-image: url("./../img/heroes/DruidF17.png");
+}
+
+.rogue {
+    background-image: url("./../img/heroes/RogueF18.png");
+}
+
+.archer {
+    background-image: url("./../img/heroes/RangerF15.png");
+}
+
+.goblin {
+    background-image: url("./../img/monsters/Goblin.png");
+}
+
+.gnoll {
+    background-image: url("./../img/monsters/Gnoll.png");
+}
+
+.ogre {
+    background-image: url("./../img/monsters/Grimlock.png");
+}
+
+.chest {
+    background-image: url("./../img/");
+}
+
+.trap {
+    background-image: url("./../img/objects/Stump.png");
+}
+
+.pillar {
+    background-image: url("./../img/");
+}
