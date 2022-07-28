@@ -14,6 +14,7 @@ const roomView = () => {
 
   useEffect(() => {
     axios
+      // .get(`${import.meta.env.VITE_API_URL}/api/map`)
       .get(`${API_URL}/api/map`)
       .then((res) => {
         setSquareSettings(res.data.squaresSettings);

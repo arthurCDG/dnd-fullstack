@@ -7,8 +7,6 @@ const squareComponent = ({ floorType, children }) => {
   const [hero, setHero] = useState(null);
   const [monster, setMonster] = useState(null);
 
-  const API_URL = "http://localhost:5005";
-
   // useEffect(() => {
   //   axios
   //     .get(API_URL) // fetch hero at this position

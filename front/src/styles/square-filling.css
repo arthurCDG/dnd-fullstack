@@ -1,3 +1,5 @@
+/* HEROES */
+
 .fighter {
     background-image: url("./../img/heroes/FighterM14.png");
 }
@@ -14,6 +16,8 @@
     background-image: url("./../img/heroes/RangerF15.png");
 }
 
+/* MONSTERS */
+
 .goblin {
     background-image: url("./../img/monsters/Goblin.png");
 }
@@ -26,14 +30,24 @@
     background-image: url("./../img/monsters/Grimlock.png");
 }
 
+/* MAP ELEMENTS */
+
 .chest {
-    background-image: url("./../img/");
+    background-image: url("./../img/map-elements/locked-chest.svg");
 }
 
 .trap {
-    background-image: url("./../img/objects/Stump.png");
+    background-image: url("./../img/map-elements/traps/hole-trap.svg");
 }
 
 .pillar {
-    background-image: url("./../img/");
+    background-image: url("./../img/map-elements/pillar.svg");
+}
+
+.dungeon-wall {
+    background-image: url("./../img/map-elements/stoneWall.svg");
+}
+
+.dungeon-door {
+    background-image: url("./../img/map-elements/doorway.svg");
 }
